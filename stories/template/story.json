@@ -10,7 +10,8 @@
     "time": "09:41",
     "battery": 94,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "apple-wwdc26",
+    "passcode": "1732"
   },
   "installedApps": [
     "appstore",
@@ -93,6 +94,12 @@
       "name": "测试联系人",
       "phone": "",
       "bio": "这是一条测试内容。"
+    },
+    {
+      "id": "zhang-yuanying",
+      "name": "张元英",
+      "phone": "",
+      "bio": ""
     }
   ],
   "chats": [
