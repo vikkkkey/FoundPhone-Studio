@@ -1,16 +1,17 @@
 {
   "scriptVersion": 1,
   "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "title": "张元英的手机",
+  "description": "虚构互动手机故事：锁屏密码、联系人与 KakaoTalk 会话设置。",
+  "revision": 3,
   "phone": {
-    "owner": "机主",
+    "owner": "安宥真",
     "date": "2026-10-25",
     "time": "09:41",
     "battery": 94,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "sage",
+    "passcode": "1732"
   },
   "installedApps": [
     "appstore",
@@ -89,10 +90,11 @@
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
+      "id": "wonyoung",
+      "name": "张元英",
       "phone": "",
-      "bio": "这是一条测试内容。"
+      "avatar": "",
+      "bio": "虚构故事角色。"
     }
   ],
   "chats": [
@@ -225,23 +227,37 @@
       ]
     },
     {
-      "id": "test-chat-kakao",
+      "id": "kakao-wonyoung-chat",
       "app": "kakao",
-      "title": "测试会话",
+      "title": "张元英",
       "participants": [
         "owner",
-        "test-contact"
+        "wonyoung"
       ],
       "messages": [
         {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "wonyoung-kakao-001",
+          "body": "宥真姐姐～你现在在哪里呀？",
+          "senderId": "wonyoung",
+          "time": "21:08"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "wonyoung-kakao-002",
+          "body": "刚结束行程，在回宿舍的路上。怎么啦？",
+          "senderId": "owner",
+          "time": "21:09"
+        },
+        {
+          "id": "wonyoung-kakao-003",
+          "body": "没什么嘛，就是想你了ㅠㅠ 到宿舍记得告诉我！",
+          "senderId": "wonyoung",
+          "time": "21:09"
+        },
+        {
+          "id": "wonyoung-kakao-004",
+          "body": "知道啦。你也早点休息，别又偷偷熬夜。",
+          "senderId": "owner",
+          "time": "21:10"
         }
       ]
     }
