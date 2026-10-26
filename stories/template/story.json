@@ -3,14 +3,14 @@
   "id": "ui-test-phone-v2",
   "title": "张元英的手机",
   "description": "虚构互动手机故事：锁屏密码、联系人与 KakaoTalk 会话设置。",
-  "revision": 4,
+  "revision": 5,
   "phone": {
     "owner": "安宥真",
     "date": "2026-10-25",
     "time": "09:41",
     "battery": 94,
     "network": "5G",
-    "wallpaper": "/images/IMG_0958.jpeg",
+    "wallpaper": "images/IMG_0958.jpeg",
     "passcode": "1732"
   },
   "installedApps": [
@@ -93,7 +93,7 @@
       "id": "wonyoung",
       "name": "张元英",
       "phone": "",
-      "avatar": "/images/IMG_0959.jpeg",
+      "avatar": "images/IMG_0959.jpeg",
       "bio": "虚构故事角色。"
     }
   ],
